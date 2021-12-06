@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+*{
+    color: cornsilk;
+}
+#first{
+    position: absolute;
+    margin:200px 0px 0px 200px;
+    /* pointer-events: none; */
+    margin-left: 200px;
+    pointer-events:painted;
+    transition:  margin-left 10s;
+    
+}
+#second{
+    position: absolute;
+    margin:320px 0px 0px 200px;
+    margin-left: 200px;
+    pointer-events:painted;
+    transition:  margin-left 10s;
+}
+#third {
+    position: absolute;
+    margin:450px 0px 0px 200px;
+    margin-left: 200px;
+    pointer-events:painted;
+    transition:  margin-left 10s;
+    /* pointer-events: none; */
+}
